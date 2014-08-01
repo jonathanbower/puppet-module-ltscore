@@ -1,0 +1,12 @@
+name         'phil-friderici-ltscore'
+version      '0.0.0'
+source       'git@github.com:Phil-Friderici/puppet-module-ltscore.git'
+author       'Phil-Friderici'
+license      'Apache License, Version 2.0'
+summary      'Linux Terminal Server related stuff'
+description  'collection of LTS related setting and tweaks'
+project_page 'https://github.com/Phil-Friderici/puppet-module-ltscore'
+
+dependency 'puppetlabs/stdlib',        '>= 3.2.0'
+dependency 'ghoneycutt/common',        '>= 1.0.0'
+dependency 'ghoneycutt/stdlibfeatures','>= 0.1.0'
